@@ -23,5 +23,8 @@ printf("The size of full name (char[]): %ld \n", sizeof(full_name));
 printf("The number of chars: %ld\n", sizeof(full_name) / sizeof(char));
 
 printf(" The name = \"%s\"  and full name = \"%s\" \n", name, full_name);
+
+printf(" The second letter of name: %c\n", name[1]);
+printf(" The second letter of full name: %ld\n", full_name[1]);
   return 0;
 } 
